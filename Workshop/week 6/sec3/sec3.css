@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Open sans", sans-serif;
+    background-color: #FFBA00;
+}
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.column-container{
+    display: flex;
+    justify-content: space-between;
+}
+.column-1{
+    text-align: center;
+}
+.column-1 img{
+    position: relative;
+    right:9px;
+}
+.column-2{
+    text-align: center;
+}
+.column-3{
+    text-align: center;
+}
+h2{
+    margin-bottom: 5px;
+}
+.company{
+    margin-bottom: 20px;
+}
